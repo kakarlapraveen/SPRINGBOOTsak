@@ -11,4 +11,4 @@ COPY ./target/*.jar app.jar
 # Expose port
 EXPOSE 8081
 # Start the application
-ENTRYPOINT ["java", "-jar", "app.jar"]
+CMD ["java", "-jar", "app.jar"]
