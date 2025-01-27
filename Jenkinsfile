@@ -6,9 +6,9 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = 'sathvik1522/reactimage'  
+        DOCKER_IMAGE = 'kakarlapraveena/sprin'  
         DOCKER_TAG = 'latest'
-        CREDENTIAL = 'docker_credential'         
+        CREDENTIAL = 'docker-hub-credentials'         
     }
 
     stages {
